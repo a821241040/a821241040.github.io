@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Windos系统Git安装教程</title>
+      <link href="/2020/04/30/Windos%E7%B3%BB%E7%BB%9FGit%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+      <url>/2020/04/30/Windos%E7%B3%BB%E7%BB%9FGit%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<p>更换电脑系统，需要重新安装Git，正好做个记录.</p><a id="more"></a><h2 id="获取git安装程序"><a class="markdownIt-Anchor" href="#获取git安装程序"></a> 获取Git安装程序</h2><p>官网下载地址：<a href="https://git-scm.com/download" target="_blank" rel="noopener">https://git-scm.com/download</a><br /><img src="%E8%8E%B7%E5%8F%96Git%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.png" alt="" /></p><h2 id="git客户端安装过程"><a class="markdownIt-Anchor" href="#git客户端安装过程"></a> Git客户端安装过程</h2><h3 id="1双击安装程序git-2262-64-bitexe"><a class="markdownIt-Anchor" href="#1双击安装程序git-2262-64-bitexe"></a> 1.双击安装程序“Git-2.26.2-64-bit.exe”：</h3><p><img src="Git%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F01.png" alt="" /></p><h3 id="2选择合适的安装目录"><a class="markdownIt-Anchor" href="#2选择合适的安装目录"></a> 2.选择合适的安装目录：</h3><p><img src="Git%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F02.png" alt="" /></p><h3 id="3安装配置文件"><a class="markdownIt-Anchor" href="#3安装配置文件"></a> 3.安装配置文件：</h3><p><img src="Git%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F03.png" alt="" /><br />配置说明：<br />  (1)Addition icons：选择是否创建桌面快捷方式。  <br />  (2)Windows Explorer integration：浏览源码的方法，使用bash或者使用Git GUI工具。<br />  (3)LFS大文件支持。  <br />  (4)是否关联git配置文件, 该配置文件主要显示文本编辑器的样式。<br />  (5)是否关联Bash命令行执行的脚本文件。<br />  (6)在命令行中是否使用TruthType编码, 该编码是微软和苹果公司制定的通用编码。<br />  (7)是否每天检查更新。</p><h3 id="4选择开始菜单页"><a class="markdownIt-Anchor" href="#4选择开始菜单页"></a> 4.选择开始菜单页：</h3><p><img src="Git%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F04.png" alt="" /><br />这个界面是创建开始菜单中的名称，不需要修改。</p><h3 id="5选择git文件默认的编辑器"><a class="markdownIt-Anchor" href="#5选择git文件默认的编辑器"></a> 5.选择Git文件默认的编辑器：</h3><p><img src="Git%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F05.png" alt="" /><br />这个页面是在选择Git文件默认的编辑器，很少用到，所以默认Vim即可。</p><h3 id="6调整path环境设置环境变量"><a class="markdownIt-Anchor" href="#6调整path环境设置环境变量"></a> 6.调整PATH环境，设置环境变量：</h3><p><img src="Git%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F06.png" alt="" /><br />选择使用什么样的命令行工具，一般情况下我们默认使用Git Bash即可：  <br />  (1)Git自带：使用Git自带的Git Bash命令行工具。  <br />  (2)系统自带CMD：使用Windows系统的命令行工具。  <br />  (3)二者都有：上面二者同时配置，但是注意，这样会将windows中的find.exe 和 sort.exe工具覆盖，如果不懂这些尽量不要选择。</p><h3 id="7选择https后端传输"><a class="markdownIt-Anchor" href="#7选择https后端传输"></a> 7.选择HTTPS后端传输：</h3><p><img src="Git%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F07.png" alt="" /><br />选择HTTPS后端传输方式：  <br />  (1)“使用 OpenSSL 库”。服务器证书将使用ca-bundle.crt文件进行验证。这也是我们常用的选项。  <br />  (2)“使用本地 Windows 安全通道库”。服务器证书将使用Windows证书存储验证。此选项还允许您使用公司的内部根CA证书，例如通过Active Directory Domain Services。</p><h3 id="8配置行尾符号转换"><a class="markdownIt-Anchor" href="#8配置行尾符号转换"></a> 8.配置行尾符号转换：</h3><p><img src="Git%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F08.png" alt="" /><br />配置行尾符号转换：  <br />  (1)“签出Windows风格，提交Unix风格的行尾”。签出文本文件时，Git会将LF转换为CRLF。提交文本文件时，CRLF将转换为LF。对于跨平台项目，这是Windows上的推荐设置(“ core.autocrlf”设置为“ true”)。  <br />  (2)“按原样签出，提交Unix样式的行尾”。签出文本文件时，Git不会执行任何转换。 提交文本文件时，CRLF将转换为LF。对于跨平台项目，这是Unix上的建议设置(“ core.autocrlf”设置为“ input”)。  <br />  (3)“按原样签出，按原样提交”。当签出或提交文本文件时，Git不会执行任何转换。不建议跨平台项目选择此选项(“ core.autocrlf”设置为“ false”)。</p><h3 id="9配置终端模拟器以与git-bash一起使用"><a class="markdownIt-Anchor" href="#9配置终端模拟器以与git-bash一起使用"></a> 9.配置终端模拟器以与Git Bash一起使用：</h3><p><img src="Git%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F09.png" alt="" /><br />配置终端模拟器以与Git Bash一起使用：  <br />  (1)“使用MinTTY(MSYS2的默认终端)”。Git Bash将使用MinTTY作为终端模拟器，该模拟器具有可调整大小的窗口，非矩形选择和Unicode字体。Windows控制台程序(例如交互式Python)必须通过“ winpty”启动才能在MinTTY中运行。  <br />  (2)“使用Windows的默认控制台窗口”。Git将使用Windows的默认控制台窗口(“cmd.exe”)，该窗口可以与Win32控制台程序(如交互式Python或node.js)一起使用，但默认的回滚非常有限，需要配置为使用unicode 字体以正确显示非ASCII字符，并且在Windows 10之前，其窗口不能自由调整大小，并且只允许矩形文本选择。</p><h3 id="10额外的配置选项"><a class="markdownIt-Anchor" href="#10额外的配置选项"></a> 10.额外的配置选项：</h3><p><img src="Git%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F10.png" alt="" /><br />配置额外的配置选项：  <br />  (1)“启用文件系统缓存”。文件系统数据将被批量读取并缓存在内存中用于某些操作(“core.fscache”设置为“true”)。这提供了显着的性能提升。  <br />  (2)“启用Git凭证管理器”。Windows的Git凭证管理器为Windows提供安全的Git凭证存储，最显着的是对Visual Studio Team Services和GitHub的多因素身份验证支持。 (<a href="http://xn--dw2at9x.NET" target="_blank" rel="noopener">需要.NET</a> Framework v4.5.1或更高版本)。  <br />  (3)“启用符号链接”。启用符号链接(需要SeCreateSymbolicLink权限)。请注意，现有存储库不受此设置的影响。</p><h3 id="11点击install进行安装"><a class="markdownIt-Anchor" href="#11点击install进行安装"></a> 11.点击install进行安装：</h3><p><img src="Git%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F11.png" alt="" /></p><h3 id="12安装完成"><a class="markdownIt-Anchor" href="#12安装完成"></a> 12.安装完成：</h3><p><img src="Git%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F12.png" alt="" /></p><h3 id="13启动测试"><a class="markdownIt-Anchor" href="#13启动测试"></a> 13.启动测试：</h3><p>到此，Git的安装完成，启动CMD，输入git --version，显示如下，即Git安装成功。<br /><img src="Git%E6%B5%8B%E8%AF%95.png" alt="" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件安装 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+            <tag> 安装教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2020/04/28/hello-world/"/>
+      <url>/2020/04/28/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
