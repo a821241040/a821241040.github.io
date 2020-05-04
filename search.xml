@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Windos系统Node.js安装教程</title>
+      <link href="/2020/05/02/Windos%E7%B3%BB%E7%BB%9Fnode%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+      <url>/2020/05/02/Windos%E7%B3%BB%E7%BB%9Fnode%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<p>由于更换电脑系统，需要重新安装Node.js，正好做个记录。</p><a id="more"></a><h2 id="获取node安装程序"><a class="markdownIt-Anchor" href="#获取node安装程序"></a> 获取Node安装程序</h2><p>官网下载地址：<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a><br /><img src="%E8%8E%B7%E5%8F%96Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.png" alt="" /></p><h2 id="node客户端安装过程"><a class="markdownIt-Anchor" href="#node客户端安装过程"></a> Node客户端安装过程</h2><h3 id="1双击安装程序node-v12163-x64msi"><a class="markdownIt-Anchor" href="#1双击安装程序node-v12163-x64msi"></a> 1.双击安装程序“Node-v12.16.3-x64.msi”：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F01.png" alt="" /></p><h3 id="2勾选接受协议选项"><a class="markdownIt-Anchor" href="#2勾选接受协议选项"></a> 2.勾选接受协议选项：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F02.png" alt="" /></p><h3 id="3选择合适的安装目录"><a class="markdownIt-Anchor" href="#3选择合适的安装目录"></a> 3.选择合适的安装目录：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F03.png" alt="" /></p><h3 id="4选择需要的安装模式"><a class="markdownIt-Anchor" href="#4选择需要的安装模式"></a> 4.选择需要的安装模式：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F04.png" alt="" /><br />一般情况下，不需要修改。</p><h3 id="5选择是否安装native模块"><a class="markdownIt-Anchor" href="#5选择是否安装native模块"></a> 5.选择是否安装Native模块：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F05.png" alt="" /><br />选择自动安装即可。</p><h3 id="6点击-install安装开始安装nodejs"><a class="markdownIt-Anchor" href="#6点击-install安装开始安装nodejs"></a> 6.点击 Install（安装）开始安装Node.js：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F06.png" alt="" /></p><h3 id="7安装过程"><a class="markdownIt-Anchor" href="#7安装过程"></a> 7.安装过程：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F07.png" alt="" /></p><h3 id="8点击finsh退出安装向导"><a class="markdownIt-Anchor" href="#8点击finsh退出安装向导"></a> 8.点击Finsh退出安装向导：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F08.png" alt="" /></p><h3 id="9按任意键继续安装额外的工具"><a class="markdownIt-Anchor" href="#9按任意键继续安装额外的工具"></a> 9.按任意键继续安装额外的工具：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F09.png" alt="" /></p><h3 id="13启动测试"><a class="markdownIt-Anchor" href="#13启动测试"></a> 13.启动测试：</h3><p>到此，Node.js的安装完成，启动CMD，输入node --version，显示如下，即Node安装成功。<br /><img src="Node%E6%B5%8B%E8%AF%95.png" alt="" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件安装 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 安装教程 </tag>
+            
+            <tag> Node.js </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Windos系统Git安装教程</title>
       <link href="/2020/04/30/Windos%E7%B3%BB%E7%BB%9FGit%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
       <url>/2020/04/30/Windos%E7%B3%BB%E7%BB%9FGit%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
