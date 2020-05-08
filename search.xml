@@ -4,25 +4,54 @@
   
     
     <entry>
-      <title>Windos系统Node.js安装教程</title>
-      <link href="/2020/05/02/Windos%E7%B3%BB%E7%BB%9Fnode%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
-      <url>/2020/05/02/Windos%E7%B3%BB%E7%BB%9Fnode%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+      <title>Jade6.5安装教程</title>
+      <link href="/2020/05/08/Jade6-5%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+      <url>/2020/05/08/Jade6-5%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
       
-        <content type="html"><![CDATA[<p>由于更换电脑系统，需要重新安装Node.js，正好做个记录。</p><a id="more"></a><h2 id="获取node安装程序"><a class="markdownIt-Anchor" href="#获取node安装程序"></a> 获取Node安装程序</h2><p>官网下载地址：<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a><br /><img src="%E8%8E%B7%E5%8F%96Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.png" alt="" /></p><h2 id="node客户端安装过程"><a class="markdownIt-Anchor" href="#node客户端安装过程"></a> Node客户端安装过程</h2><h3 id="1双击安装程序node-v12163-x64msi"><a class="markdownIt-Anchor" href="#1双击安装程序node-v12163-x64msi"></a> 1.双击安装程序“Node-v12.16.3-x64.msi”：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F01.png" alt="" /></p><h3 id="2勾选接受协议选项"><a class="markdownIt-Anchor" href="#2勾选接受协议选项"></a> 2.勾选接受协议选项：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F02.png" alt="" /></p><h3 id="3选择合适的安装目录"><a class="markdownIt-Anchor" href="#3选择合适的安装目录"></a> 3.选择合适的安装目录：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F03.png" alt="" /></p><h3 id="4选择需要的安装模式"><a class="markdownIt-Anchor" href="#4选择需要的安装模式"></a> 4.选择需要的安装模式：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F04.png" alt="" /><br />一般情况下，不需要修改。</p><h3 id="5选择是否安装native模块"><a class="markdownIt-Anchor" href="#5选择是否安装native模块"></a> 5.选择是否安装Native模块：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F05.png" alt="" /><br />选择自动安装即可。</p><h3 id="6点击-install安装开始安装nodejs"><a class="markdownIt-Anchor" href="#6点击-install安装开始安装nodejs"></a> 6.点击 Install（安装）开始安装Node.js：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F06.png" alt="" /></p><h3 id="7安装过程"><a class="markdownIt-Anchor" href="#7安装过程"></a> 7.安装过程：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F07.png" alt="" /></p><h3 id="8点击finsh退出安装向导"><a class="markdownIt-Anchor" href="#8点击finsh退出安装向导"></a> 8.点击Finsh退出安装向导：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F08.png" alt="" /></p><h3 id="9按任意键继续安装额外的工具"><a class="markdownIt-Anchor" href="#9按任意键继续安装额外的工具"></a> 9.按任意键继续安装额外的工具：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F09.png" alt="" /></p><h3 id="13启动测试"><a class="markdownIt-Anchor" href="#13启动测试"></a> 13.启动测试：</h3><p>到此，Node.js的安装完成，启动CMD，输入node --version，显示如下，即Node安装成功。<br /><img src="Node%E6%B5%8B%E8%AF%95.png" alt="" /></p>]]></content>
+        <content type="html"><![CDATA[<p>  Jade是分析XRD数据的常用工具之一。</p><a id="more"></a><h2 id="压缩包内的文件目录"><a class="markdownIt-Anchor" href="#压缩包内的文件目录"></a> 压缩包内的文件目录</h2><p><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F01.png" alt="" /></p><h2 id="安装jade主程序"><a class="markdownIt-Anchor" href="#安装jade主程序"></a> 安装Jade主程序</h2><p>  双击MDI Jade 6.5.exe，安装主程序，最好安装在非系统盘，一般会很快安装完成。请记住你的安装路径（本文以安装D盘为例），等会还要访问这个文件夹。<br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F02.jpg" alt="" /></p><h2 id="准备pdf2和jade65补丁"><a class="markdownIt-Anchor" href="#准备pdf2和jade65补丁"></a> 准备PDF2和Jade6.5补丁</h2><p>  主程序安装完成后，复制PDF2 2004 和Jade6.5破解补丁两个文件，粘贴到主程序的安装目录下，即第二步你选择的安装地址。<br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F03.png" alt="" /><br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F04.png" alt="" /></p><h2 id="破解jade65找到安装目录下的jade6exe将其发送至桌面快捷方式"><a class="markdownIt-Anchor" href="#破解jade65找到安装目录下的jade6exe将其发送至桌面快捷方式"></a> 破解Jade6.5，找到安装目录下的jade6.exe，将其发送至桌面快捷方式</h2><p>  右键，以管理员身份运行Jade6.5破解补丁这个文件，这个文件运行的很快，闪一下就结束了，所以不是闪退，请不要疯狂的点，并因此以为安装失败。<br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F05.jpg" alt="" /></p><h2 id="双击运行程序若出现run-time-error339等报错则需要安装补丁若无报错则跳到安装pdf卡"><a class="markdownIt-Anchor" href="#双击运行程序若出现run-time-error339等报错则需要安装补丁若无报错则跳到安装pdf卡"></a> 双击运行程序，若出现“Run-time error’339’”等报错，则需要安装补丁，若无报错则跳到安装PDF卡</h2><p>  打开Jade补丁这一个文件件，复制里面4个后缀ocx的文件，将其粘贴到C:\Windows\System32，替换其中的文件，如果出现需要管理员权限，直接点继续，对于64位系统，需要再将这四个文件复制到C:\Windows\SysWOW64之中。<br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F06.jpg" alt="" /><br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F07.png" alt="" /><br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F08.png" alt="" /><br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F09.jpg" alt="" /></p><h2 id="注册ocx文件"><a class="markdownIt-Anchor" href="#注册ocx文件"></a> 注册ocx文件</h2><p>  回到Jade6.5补丁文件夹中，右键管理员方式运行注册ocx.bat文件，全部点确定，并随意点击一个左侧后缀MDI的文件。<br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F10.jpg" alt="" /></p><h2 id="安装pdf卡"><a class="markdownIt-Anchor" href="#安装pdf卡"></a> 安装PDF卡</h2><p>  双击桌面上的jade快捷方式，运行程序，将弹出的小窗口关闭。双击左侧任意一个MDI文件，点击菜单栏PDF-Setup，准备导入PDF卡片（PDF2-2004）。<br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F11.jpg" alt="" /></p><h2 id="导入pdf卡"><a class="markdownIt-Anchor" href="#导入pdf卡"></a> 导入PDF卡</h2><p>  选择图中圈出的右上角的图标，单击选择PDF2 2004文件夹，选择pdf2.dat文件，然后点击Select All，再点击Create，开始安装PDF卡片（卡片安装时间由电脑运行速度决定）。<br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F12.png" alt="" /><br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F13.png" alt="" /><br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F14.png" alt="" /></p><h2 id="开始使用"><a class="markdownIt-Anchor" href="#开始使用"></a> 开始使用</h2><p>  提示创建成功(Creation of index files has been completed!)，点击OK。点击菜单Help-About jade，软件显示已注册，安装结束。<br /><img src="Jade%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F15.png" alt="" /></p>]]></content>
       
       
       <categories>
           
-          <category> 软件安装 </category>
+          <category> Jade6.5 </category>
+          
+          <category> 安装教程 </category>
+          
+          <category> 科研软件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 安装教程 </tag>
+            <tag> 软件安装 </tag>
             
-            <tag> Node.js </tag>
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Windos系统Node.js安装教程</title>
+      <link href="/2020/05/02/Windos%E7%B3%BB%E7%BB%9Fnode%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+      <url>/2020/05/02/Windos%E7%B3%BB%E7%BB%9Fnode%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<p>  由于更换电脑系统，需要重新安装Node.js，正好做个记录。</p><a id="more"></a><h2 id="获取node安装程序"><a class="markdownIt-Anchor" href="#获取node安装程序"></a> 获取Node安装程序</h2><p>  官网下载地址：<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a><br /><img src="%E8%8E%B7%E5%8F%96Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.png" alt="" /></p><h2 id="node客户端安装过程"><a class="markdownIt-Anchor" href="#node客户端安装过程"></a> Node客户端安装过程</h2><h3 id="1双击安装程序node-v12163-x64msi"><a class="markdownIt-Anchor" href="#1双击安装程序node-v12163-x64msi"></a> 1.双击安装程序“Node-v12.16.3-x64.msi”：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F01.png" alt="" /></p><h3 id="2勾选接受协议选项"><a class="markdownIt-Anchor" href="#2勾选接受协议选项"></a> 2.勾选接受协议选项：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F02.png" alt="" /></p><h3 id="3选择合适的安装目录"><a class="markdownIt-Anchor" href="#3选择合适的安装目录"></a> 3.选择合适的安装目录：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F03.png" alt="" /></p><h3 id="4选择需要的安装模式"><a class="markdownIt-Anchor" href="#4选择需要的安装模式"></a> 4.选择需要的安装模式：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F04.png" alt="" /><br />  一般情况下，不需要修改。</p><h3 id="5选择是否安装native模块"><a class="markdownIt-Anchor" href="#5选择是否安装native模块"></a> 5.选择是否安装Native模块：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F05.png" alt="" /><br />  选择自动安装即可。</p><h3 id="6点击-install安装开始安装nodejs"><a class="markdownIt-Anchor" href="#6点击-install安装开始安装nodejs"></a> 6.点击 Install（安装）开始安装Node.js：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F06.png" alt="" /></p><h3 id="7安装过程"><a class="markdownIt-Anchor" href="#7安装过程"></a> 7.安装过程：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F07.png" alt="" /></p><h3 id="8点击finsh退出安装向导"><a class="markdownIt-Anchor" href="#8点击finsh退出安装向导"></a> 8.点击Finsh退出安装向导：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F08.png" alt="" /></p><h3 id="9按任意键继续安装额外的工具"><a class="markdownIt-Anchor" href="#9按任意键继续安装额外的工具"></a> 9.按任意键继续安装额外的工具：</h3><p><img src="Node%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F09.png" alt="" /></p><h3 id="13启动测试"><a class="markdownIt-Anchor" href="#13启动测试"></a> 13.启动测试：</h3><p>  到此，Node.js的安装完成，启动CMD，输入node --version，显示如下，即Node安装成功。<br /><img src="Node%E6%B5%8B%E8%AF%95.png" alt="" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 安装教程 </category>
+          
+          <category> Node.js </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件安装 </tag>
             
         </tags>
       
@@ -40,16 +69,16 @@
       
       <categories>
           
-          <category> 软件安装 </category>
+          <category> Git </category>
+          
+          <category> 安装教程 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Git </tag>
-            
-            <tag> 安装教程 </tag>
+            <tag> 软件安装 </tag>
             
         </tags>
       
